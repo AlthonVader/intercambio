@@ -5,6 +5,8 @@
  */
 package principal;
 
+import vista.VistaEnlace;
+
 /**
  *
  * @author Althon Vader
@@ -15,7 +17,12 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        VistaEnlace enl= new VistaEnlace();
+                
+       // enl.iniciar();
+        enl.setVisible(true); 
+        
+    }
     }
     
-}
+
